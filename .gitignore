@@ -1,0 +1,7 @@
+# Large local model exports and internal temporary output
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+*.tmp
+*.bak
+~$*

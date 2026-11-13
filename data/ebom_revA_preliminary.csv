@@ -1,0 +1,8 @@
+Find,PartNumber,Description,Quantity,UoM,Revision,Status
+10,DEP-PRT-1100,Concept B J3 Tapered Cradle,1,ea,A,In Work
+20,DEP-PRT-1200,J3 Motor Adapter,1,ea,A,In Work
+30,DEP-PRT-1300,J3 Airframe Mating Interface,1,ea,A,In Work
+40,DEP-HDW-2100,M6 ISO 4017 Bolt Class 8.8 Length TBD,8,ea,A,In Work
+50,DEP-HDW-2200,M6 ISO 7089 Plain Washer 200 HV,16,ea,A,In Work
+60,DEP-HDW-2300,M6 ISO 7042 Locking Nut Class 8,8,ea,A,In Work
+70,DEP-HDW-2400,ISO 8734 Dowel Pin Dia4 x 14,4,ea,A,In Work
