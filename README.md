@@ -7,6 +7,12 @@
 
 > **Provenance:** This independent portfolio work is informed by publicly available NASA X-57 motor reference material; it is not an official NASA project, NASA-supplied design, experimentally validated mount, flight-qualified article or manufacturing release. The actual CAD configuration is an unequal-flange, tapered-cradle assembly. Only the author's own SolidWorks screenshots should be used as CAD figures—**no generic CAD visualizations represent the design**.
 
+## What the project demonstrates
+
+This is a **design decision study**, not simply a CAD exercise: compare two architectures → build an actual J3 assembly → screen source-informed loads and preliminary FEA → investigate 800 parameter sets → test ML surrogate reliability → audit the real fastening arrangement → retain the reference CAD when release criteria are not satisfied.
+
+**Start here:** [Engineering project walkthrough and evidence map](docs/09_engineering_walkthrough.md) · [Original source notebooks](notebooks/) · [Recovered DOE dataset](data/DEP_MOUNT_7L2_Adapter_Joint_DOE.csv) · [Evidence audit](docs/08_repository_evidence_audit.md).
+
 ## Executive summary
 
 How should a lightweight distributed electric propulsion (DEP) motor mount transmit thrust, side loads, applied propeller moments, inertial reactions and installation loads while maintaining a defensible, manufacturable structural load path?
@@ -81,6 +87,25 @@ TurboPLM project `DEP-2026`, parent assembly `DEP-ASM-1000`, **Rev A — In Work
 
 **REQ-10007** covers motor/airframe load transfer; **REQ-10008** covers bolted joint integrity. Both remain draft engineering requirements. **ECR-10002** remains open for fastening/joint verification. The **Concept Gate passed on 13 November 2026**; Design is In Progress; Validation, Pilot and Production have not passed. No production release is claimed.
 
+## Original code and recovered DOE evidence
+
+The original authoring evidence has now been committed:
+
+- [Phase 7M-5 J3 failure-aware optimization notebook](notebooks/DEP_MOUNT_7M5_J3_Failure_Aware_Optimization.ipynb) and [standalone Python source](scripts/DEP_MOUNT_7M5_J3_Failure_Aware_Optimization.py)
+- [Phase 7L DOE/ML visualization notebook](notebooks/DEP_MOUNT_7L_ML_Visualization.ipynb) (requires additional original Phase 7L-1 input for its complete workflow)
+- [Original Phase 7L-2 800-row analytical DOE](data/DEP_MOUNT_7L2_Adapter_Joint_DOE.csv)
+- [TurboPLM screenshot-transcribed seven-line eBOM backup](data/plm/DEP_2026_eBOM_manual_backup_2026-11-12.csv)
+
+**Source status:** These two notebooks contain original source code but no saved execution results. The CSV was recovered by parsing the earlier stored attachment and structurally checked. The original Phase 6D/other notebooks, their recorded plots, Phase 7L-1 CSV and real CAD screenshot binaries are still not published. No full end-to-end rerun is claimed.
+
+### New graphs drawn directly from the recovered DOE
+
+![DOE mass versus rigidity from recovered 7L-2 cases](assets/figures/doe_mass_vs_rigidity_recovered.svg)
+
+![DOE outer diameter versus mass from recovered 7L-2 cases](assets/figures/doe_outer_diameter_mass_recovered.svg)
+
+The colouring is based **only on the source CSV's geometry/stiffness gate**, not on the separately reported 179 full conditional feasibility passes. These are newly plotted dataset views, **not original Colab figures, measured results, or verified flight hardware**.
+
 ## Published numerical evidence and verification
 
 ![Source-correlated idealized bolt reactions](assets/figures/correlated_bolt_demands.svg)
@@ -101,10 +126,11 @@ The repository now includes a [dependency-free evidence integrity checker](scrip
 - [Open risks and release decision](docs/06_open_risks.md)
 - [Evidence provenance and reproduction boundaries](docs/07_reproducibility.md)
 - [Source file availability, integrity checks and outstanding publication gaps](docs/08_repository_evidence_audit.md)
+- [Engineering project walkthrough: methods, evidence, decisions and limitations](docs/09_engineering_walkthrough.md)
 
 ## Reproduction boundaries
 
-The original Python/Colab notebooks, their embedded plots, DOE source CSV and locally saved SolidWorks Pack-and-Go archive are retained separately until uploaded to this repository. **No claim of complete end-to-end reproducibility is made until source dependencies are available.** Figures must retain their original case/assumption labels and cannot be promoted from scenario proxies to verified component strength.
+Two original source-only notebooks, a standalone 7M-5 Python script and the original 800-row 7L-2 DOE dataset are now published. The original executed outputs, earlier Phase 6D and unnamed follow-on notebooks, 7L-1 input, real CAD screenshots and locally retained SolidWorks Pack-and-Go archive remain unavailable in this repository. **No claim of complete end-to-end reproducibility is made until all source dependencies and required original output evidence are present and verified.** Newly generated figures are clearly labelled dataset replots.
 
 ## External references
 

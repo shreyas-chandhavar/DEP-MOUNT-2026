@@ -11,20 +11,21 @@
 | Graphs of the tabulated reactions | [bolt](../assets/figures/correlated_bolt_demands.svg) · [dowel](../assets/figures/correlated_dowel_demands.svg) | **Redrawn from published numerical summary**, not original Colab exports |
 | Preliminary eBOM | [seven-item eBOM](../data/ebom_revA_preliminary.csv) | Transcribed preliminary configuration, not a native TurboPLM export |
 | Problem, DOE/ML and hardware limitations | [technical documentation](01_problem_and_requirements.md), [DOE/ML](03_doe_ml.md), [CAD audit](04_cad_review.md), [release risks](06_open_risks.md) | Technical summaries, not independently re-executable source-code notebooks |
+| Original 7M-5 notebook and Python script | [notebook](../notebooks/DEP_MOUNT_7M5_J3_Failure_Aware_Optimization.ipynb), [script](../scripts/DEP_MOUNT_7M5_J3_Failure_Aware_Optimization.py) | Source code preserved; notebook has no saved cell outputs |
+| Original 7L visualization notebook | [7L notebook](../notebooks/DEP_MOUNT_7L_ML_Visualization.ipynb) | Source code preserved; full rerun needs unavailable 7L-1 dataset |
+| Original 7L-2 modelled DOE | [800-row CSV](../data/DEP_MOUNT_7L2_Adapter_Joint_DOE.csv) | Recovered data; structural audit 800 rows × 12 fields |
+| Recovered DOE figures | [mass vs rigidity](../assets/figures/doe_mass_vs_rigidity_recovered.svg) · [OD vs mass](../assets/figures/doe_outer_diameter_mass_recovered.svg) | Newly derived directly from original DOE table, not preserved Colab outputs |
+| Transcribed PLM backup | [seven-line screenshot-transcribed BOM](../data/plm/DEP_2026_eBOM_manual_backup_2026-11-12.csv) | Manual source, not TurboPLM-native export |
 | Native CAD archive custody | [Pack-and-Go manifest](../cad/PACK_AND_GO_MANIFEST.md) | Local ZIP reported CRC-checked; ZIP not included in this repository |
 
 ## Original work identified from earlier uploads but NOT yet published
 
-The following were identified by filename in the user's earlier ChatGPT attachments. Being discoverable as a prior attachment **does not mean GitHub received the binary/source file**. In this session, access to the original archived files' raw bytes was unavailable; do not claim they were transferred.
+The following **still unavailable** files were identified by filename in the user's earlier ChatGPT attachments. Being discoverable as a prior attachment **does not mean GitHub received the binary/source file**. In this session, access to the original archived files' raw bytes was unavailable; do not claim they were transferred.
 
 | Prior artifact | Target GitHub path (only after exact source bytes can be recovered) | Status |
 |---|---|---|
 | `DEP_MOUNT_Phase6D_Colab_Architecture_Comparison (1).ipynb` | `notebooks/DEP_MOUNT_Phase6D_Colab_Architecture_Comparison.ipynb` | Pending |
 | `Untitled8.ipynb`, `Untitled9.ipynb` | `notebooks/` with meaningful phase labels after inspection | Pending |
-| `DEP_MOUNT_7M5_J3_Failure_Aware_Optimization.ipynb` | `notebooks/` | Indexed in earlier stored files; upload pending |
-| `DEP_MOUNT_7L_ML_Visualization.ipynb` | `notebooks/` | Indexed in earlier stored files; upload pending |
-| `DEP_MOUNT_7M5_J3_Failure_Aware_Optimization.py` | `scripts/` | Indexed in earlier stored files; upload pending |
-| `DEP_MOUNT_7L2_Adapter_Joint_DOE.csv` | `data/` | Indexed 800-row source identified; raw export pending |
 | Original Phase 7L-1 DOE and additional output figures | `data/` and `assets/figures/` | Pending full inventory/transfer |
 | `Screenshot (1349).png` — actual J3 side | `assets/cad/j3_side_actual_2026-11-13.png` | Pending |
 | `Screenshot (1350).png` — actual J3 end | `assets/cad/j3_end_actual_2026-11-13.png` | Pending |
@@ -44,4 +45,4 @@ The script [verify_repository.py](../scripts/verify_repository.py) checks curren
 
 **Do not add generic CAD images as if they depict the author's SOLIDWORKS model. Do not label newly generated proxy figures as the original Colab plots.**
 
-This audit is a transparent status register rather than a claim that missing assets have been uploaded.
+The 7L-2 dataset, two original source notebooks, a Python script and the transcribed eBOM **have now been published**. The CAD screenshots, additional historical notebooks, original output plots and native CAD binaries **have not**. This is a transparent file-level status register.

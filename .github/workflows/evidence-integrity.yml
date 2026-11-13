@@ -20,4 +20,6 @@ jobs:
         with:
           python-version: "3.11"
       - name: Verify published analytical tables and release guardrails
-        run: python scripts/verify_repository.py
+        run: |
+          python scripts/verify_repository.py
+          python scripts/check_recovered_doe.py

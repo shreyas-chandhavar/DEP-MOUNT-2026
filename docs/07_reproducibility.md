@@ -11,13 +11,23 @@
 
 **Important:** The source NASA cases were used to inform idealized preliminary models. Numeric reactions and DOE outcomes depend on independently selected mount geometry, local axes and stiffness distribution; they are **not** direct NASA hardware verification outputs.
 
+## Published original analysis source and input data
+
+- [7M-5 original Colab source notebook](../notebooks/DEP_MOUNT_7M5_J3_Failure_Aware_Optimization.ipynb), [Python copy](../scripts/DEP_MOUNT_7M5_J3_Failure_Aware_Optimization.py)
+- [7L original visualisation notebook](../notebooks/DEP_MOUNT_7L_ML_Visualization.ipynb)
+- [Original 7L-2 DOE analytical dataset](../data/DEP_MOUNT_7L2_Adapter_Joint_DOE.csv), 800 rows and 12 columns
+- [Manually screenshot-transcribed TurboPLM BOM](../data/plm/DEP_2026_eBOM_manual_backup_2026-11-12.csv)
+- Two **newly reconstructed** [DOE scatter charts](../assets/figures/doe_mass_vs_rigidity_recovered.svg), not source notebook outputs
+
+None of the two published source notebooks has saved execution outputs; these are preserved executable methods rather than claims of a reproduced run. Source-data consistency is checked by [GitHub Actions](../.github/workflows/evidence-integrity.yml), not by flight certification.
+
 ## Existing off-repo assets to add
 
 - Three original Colab notebooks: `DEP_MOUNT_Phase6D_Colab_Architecture_Comparison (1).ipynb`, `Untitled8.ipynb`, `Untitled9.ipynb`
 - Their **34** extracted output plots and 12 curated figures
 - Four actual final SolidWorks screenshots supplied on 13 November 2026
 - Latest SolidWorks Pack-and-Go archive, saved by author, including referenced components
-- Original `DEP_MOUNT_7L2_Adapter_Joint_DOE.csv`, if retained
+- Original Phase 7L-1 DOE CSV and remaining original notebook phase inputs, if retained
 - Original closeout study archive, comparison logs and recorded PLM snapshot
 
 These files are **not implied to have been uploaded** simply because their names appear here.
