@@ -81,6 +81,16 @@ TurboPLM project `DEP-2026`, parent assembly `DEP-ASM-1000`, **Rev A — In Work
 
 **REQ-10007** covers motor/airframe load transfer; **REQ-10008** covers bolted joint integrity. Both remain draft engineering requirements. **ECR-10002** remains open for fastening/joint verification. The **Concept Gate passed on 13 November 2026**; Design is In Progress; Validation, Pilot and Production have not passed. No production release is claimed.
 
+## Published numerical evidence and verification
+
+![Source-correlated idealized bolt reactions](assets/figures/correlated_bolt_demands.svg)
+
+![Source-correlated idealized dowel reactions](assets/figures/correlated_dowel_demands.svg)
+
+Both figures are **replotted from the published analytical case table**; neither is passed off as an original Colab plot. The figures represent assumed rigid-group load reactions, **not** a validated joint strength, fatigue or separation margin.
+
+The repository now includes a [dependency-free evidence integrity checker](scripts/verify_repository.py), run automatically through [GitHub Actions](.github/workflows/evidence-integrity.yml), and an [evidence/access status register](docs/08_repository_evidence_audit.md). The automated checks verify internal source-table/BOM integrity only. They cannot validate the physics, missing original notebook outputs or any release/flightworthiness claim.
+
 ## Technical documentation
 
 - [Engineering problem, scope and requirements](docs/01_problem_and_requirements.md)
@@ -90,6 +100,7 @@ TurboPLM project `DEP-2026`, parent assembly `DEP-ASM-1000`, **Rev A — In Work
 - [PLM baseline, traceability and change control](docs/05_plm.md)
 - [Open risks and release decision](docs/06_open_risks.md)
 - [Evidence provenance and reproduction boundaries](docs/07_reproducibility.md)
+- [Source file availability, integrity checks and outstanding publication gaps](docs/08_repository_evidence_audit.md)
 
 ## Reproduction boundaries
 
