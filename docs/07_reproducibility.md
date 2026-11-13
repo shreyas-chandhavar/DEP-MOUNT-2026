@@ -1,5 +1,7 @@
 # 07 — Evidence provenance, reproduction and missing source files
 
+**Engineering disposition: Preliminary portfolio study only; physical hardware release: HOLD.**
+
 ## Hierarchy of evidence
 
 1. Original author-run Python notebooks and recorded outputs (not all independently re-executed)
