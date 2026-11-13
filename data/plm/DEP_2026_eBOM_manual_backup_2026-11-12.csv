@@ -1,0 +1,8 @@
+index,Root Part,Root Revision,Find #,Part Number,Description,Category,Child Revision,Child Lifecycle,Quantity,UoM,Snapshot Provenance
+0,DEP-ASM-1000,A,10,DEP-PRT-1100,Concept B J3 Tapered Cradle,Mechanical,A,In Work,1,ea,Manually reconstructed from user screenshot; not TurboPLM native export
+1,DEP-ASM-1000,A,20,DEP-PRT-1200,J3 Motor Adapter,Mechanical,A,In Work,1,ea,Manually reconstructed from user screenshot; not TurboPLM native export
+2,DEP-ASM-1000,A,30,DEP-PRT-1300,J3 Airframe Mating Interface,Mechanical,A,In Work,1,ea,Manually reconstructed from user screenshot; not TurboPLM native export
+3,DEP-ASM-1000,A,40,DEP-HDW-2100,"M6 ISO 4017 Bolt, Class 8.8 — Length TBD",Mechanical,A,In Work,8,ea,Manually reconstructed from user screenshot; not TurboPLM native export
+4,DEP-ASM-1000,A,50,DEP-HDW-2200,"M6 ISO 7089 Plain Washer, 200 HV",Mechanical,A,In Work,16,ea,Manually reconstructed from user screenshot; not TurboPLM native export
+5,DEP-ASM-1000,A,60,DEP-HDW-2300,"M6 ISO 7042 Locking Nut, Class 8",Mechanical,A,In Work,8,ea,Manually reconstructed from user screenshot; not TurboPLM native export
+6,DEP-ASM-1000,A,70,DEP-HDW-2400,Ø4 × 14 mm ISO 8734 Dowel Pin,Mechanical,A,In Work,4,ea,Manually reconstructed from user screenshot; not TurboPLM native export
