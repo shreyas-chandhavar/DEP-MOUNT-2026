@@ -32,7 +32,7 @@ The screen identified a modelled 412.75 g adapter option, but the mass compariso
 
 ## Native CAD and original output custody
 
-The original real SolidWorks side, end and two isometric screenshots were previously provided and indexed, but their raw image bytes cannot be transferred into this repo through the currently available file interface. They remain [explicitly identified as pending](08_repository_evidence_audit.md). A ZIP archive is also indexed but is not published and may include commercial Toolbox-derived content needing a redistribution check. No generic CAD image is substituted for actual author geometry.
+The original SolidWorks side, end and two isometric screenshots are now **published in the [actual CAD gallery](../assets/cad/README.md)**, each linked to its original full-resolution PNG. The separate native SolidWorks Pack-and-Go ZIP is not published and may contain commercial Toolbox-derived components requiring a redistribution review. No generic CAD model has been substituted for the author's geometry.
 
 ## What remains unverified for hardware use
 

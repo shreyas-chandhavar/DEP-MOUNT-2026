@@ -7,6 +7,10 @@
 
 > **Provenance:** This independent portfolio work is informed by publicly available NASA X-57 motor reference material; it is not an official NASA project, NASA-supplied design, experimentally validated mount, flight-qualified article or manufacturing release. The actual CAD configuration is an unequal-flange, tapered-cradle assembly. Only the author's own SolidWorks screenshots should be used as CAD figures—**no generic CAD visualizations represent the design**.
 
+![Original author-created SolidWorks Concept B J3 tapered motor mount — isometric](assets/cad/j3_isometric_front_actual_2026-11-13_preview.webp)
+
+*Actual SolidWorks Concept B J3 assembly (front isometric). [View the full-resolution CAD image](assets/cad/j3_isometric_front_actual_2026-11-13.png) or the [four-view CAD gallery](assets/cad/README.md). This is a preliminary CAD model, not a released aircraft part.*
+
 ## What the project demonstrates
 
 This is a **design decision study**, not simply a CAD exercise: compare two architectures → build an actual J3 assembly → screen source-informed loads and preliminary FEA → investigate 800 parameter sets → test ML surrogate reliability → audit the real fastening arrangement → retain the reference CAD when release criteria are not satisfied.
@@ -52,19 +56,19 @@ flowchart LR
 
 ### CAD: the actual model
 
-**[Original SolidWorks CAD gallery — four view directions](assets/cad/README.md)** · [Source image and checksum register](assets/cad/IMAGE_PROVENANCE.md)
+The **four original author-created SolidWorks screenshots are published**. They show Concept B J3's tapered shell/cradle connecting two unequal-diameter circular end flanges with trial M6 fastener hardware and dowel features. The source images are actual screenshots, not generative renders.
 
+| Side view | End view |
+|:---:|:---:|
+| [![Side view of Concept B J3](assets/cad/j3_side_actual_2026-11-13_preview.webp)](assets/cad/j3_side_actual_2026-11-13.png) | [![End view of Concept B J3](assets/cad/j3_end_actual_2026-11-13_preview.webp)](assets/cad/j3_end_actual_2026-11-13.png) |
 
-The author's **real SolidWorks screenshots (13 November 2026)** show the tapered cradle joining two different-diameter circular flanges, each with four proposed M6 fastener positions and two Ø4 dowel locations. The revised screenshot set includes a side view, end view and two isometrics. **The local SolidWorks Pack-and-Go ZIP has been saved by the author but is not yet deposited here.**
+| Front isometric | Rear isometric |
+|:---:|:---:|
+| [![Front isometric of Concept B J3](assets/cad/j3_isometric_front_actual_2026-11-13_preview.webp)](assets/cad/j3_isometric_front_actual_2026-11-13.png) | [![Rear isometric of Concept B J3](assets/cad/j3_isometric_rear_actual_2026-11-13_preview.webp)](assets/cad/j3_isometric_rear_actual_2026-11-13.png) |
 
-**Pack-and-Go source archive:** The original eight-file ZIP was received in this conversation and passed CRC verification; its full file inventory and SHA-256 are recorded in [the verified CAD archive manifest](cad/PACK_AND_GO_MANIFEST.md). The binary ZIP is not yet on GitHub and includes SOLIDWORKS Toolbox-derived parts that require redistribution/license review.
+[**Browse the full original CAD gallery**](assets/cad/README.md) · [**PNG source and checksum register**](assets/cad/IMAGE_PROVENANCE.md) · [**CAD assembly and fastener audit**](docs/04_cad_review.md)
 
-**CAD images awaiting original-file transfer to this repository** (do not substitute synthetic or unrelated geometry):
-
-- `assets/cad/j3_side_actual_2026-11-13.png`
-- `assets/cad/j3_end_actual_2026-11-13.png`
-- `assets/cad/j3_isometric_front_actual_2026-11-13.png`
-- `assets/cad/j3_isometric_rear_actual_2026-11-13.png`
+The original eight-file SolidWorks Pack-and-Go ZIP was separately inventoried and CRC-tested; [its custody manifest](cad/PACK_AND_GO_MANIFEST.md) records the archive, but the **native CAD ZIP is not published** pending review of included SOLIDWORKS Toolbox-derived components and redistribution rights. The screenshots above **are published**.
 
 **Known CAD limitations:** nonzero interference detections including reported screw/adapter overlaps around **206.95 mm³**, other ~48.68 / ~20 mm³ groups and minor screw/washer overlaps; pin fit, blind-hole depth, actual installation access, bolt grip/engagement, clamp and fatigue are not signed off. Correct mate constraints alone do not demonstrate physical joint feasibility.
 
@@ -99,7 +103,7 @@ The original authoring evidence has now been committed:
 - [Original Phase 7L-2 800-row analytical DOE](data/DEP_MOUNT_7L2_Adapter_Joint_DOE.csv)
 - [TurboPLM screenshot-transcribed seven-line eBOM backup](data/plm/DEP_2026_eBOM_manual_backup_2026-11-12.csv)
 
-**Source status:** These two notebooks contain original source code but no saved execution results. The CSV was recovered by parsing the earlier stored attachment and structurally checked. The original Phase 6D/other notebooks, their recorded plots, Phase 7L-1 CSV and real CAD screenshot binaries are still not published. No full end-to-end rerun is claimed.
+**Source status:** These two notebooks contain original source code but no saved execution results. The CSV was recovered by parsing the earlier stored attachment and structurally checked. The original Phase 6D/other notebooks, their recorded output plots and Phase 7L-1 CSV are still not published. All four original CAD screenshots and their previews are published under `assets/cad/`. No full end-to-end rerun is claimed.
 
 ### New graphs drawn directly from the recovered DOE
 
@@ -133,7 +137,7 @@ The repository now includes a [dependency-free evidence integrity checker](scrip
 
 ## Reproduction boundaries
 
-Two original source-only notebooks, a standalone 7M-5 Python script and the original 800-row 7L-2 DOE dataset are now published. The original executed outputs, earlier Phase 6D and unnamed follow-on notebooks, 7L-1 input, real CAD screenshots and locally retained SolidWorks Pack-and-Go archive remain unavailable in this repository. **No claim of complete end-to-end reproducibility is made until all source dependencies and required original output evidence are present and verified.** Newly generated figures are clearly labelled dataset replots.
+Two original source-only notebooks, a standalone 7M-5 Python script and the original 800-row 7L-2 DOE dataset are now published. The original executed outputs, earlier Phase 6D and unnamed follow-on notebooks, Phase 7L-1 input and locally retained SolidWorks Pack-and-Go archive remain unavailable in this repository. The actual SolidWorks screenshots are published in `assets/cad/`. **No claim of complete end-to-end reproducibility is made until all source dependencies and required original output evidence are present and verified.** Newly generated figures are clearly labelled dataset replots.
 
 ## External references
 

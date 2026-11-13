@@ -21,20 +21,23 @@
 
 None of the two published source notebooks has saved execution outputs; these are preserved executable methods rather than claims of a reproduced run. Source-data consistency is checked by [GitHub Actions](../.github/workflows/evidence-integrity.yml), not by flight certification.
 
+## Original CAD screenshots already published
+
+The actual author-supplied [SolidWorks gallery](../assets/cad/README.md) includes the side, end, front isometric and rear isometric PNG images, with four WebP previews. [File custody and source checksum details](../assets/cad/IMAGE_PROVENANCE.md) are recorded separately. The native Pack-and-Go archive remains offline and is not implied to be published.
+
 ## Existing off-repo assets to add
 
 - Three original Colab notebooks: `DEP_MOUNT_Phase6D_Colab_Architecture_Comparison (1).ipynb`, `Untitled8.ipynb`, `Untitled9.ipynb`
 - Their **34** extracted output plots and 12 curated figures
-- Four actual final SolidWorks screenshots supplied on 13 November 2026
 - Latest SolidWorks Pack-and-Go archive, saved by author, including referenced components
 - Original Phase 7L-1 DOE CSV and remaining original notebook phase inputs, if retained
 - Original closeout study archive, comparison logs and recorded PLM snapshot
 
 These files are **not implied to have been uploaded** simply because their names appear here.
 
-## Recommended original screenshot filenames
+## Published original screenshot filenames
 
-| Uploaded file | Target repository path |
+| Original source screenshot | Published repository path |
 |---|---|
 | Screenshot (1349).png — side view | `assets/cad/j3_side_actual_2026-11-13.png` |
 | Screenshot (1350).png — end view | `assets/cad/j3_end_actual_2026-11-13.png` |

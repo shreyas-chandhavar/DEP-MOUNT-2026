@@ -1,35 +1,40 @@
-# Actual SolidWorks CAD gallery — Concept B J3
+# Concept B J3 — original SolidWorks CAD gallery
 
-**Independent preliminary design | Native assembly:** `DEP_ConceptB_J3_Fastener_Integration_Rev00.SLDASM` | **Physical hardware release: HOLD**
+**Images published and linked · Study Rev A (In Work) · Physical hardware release: HOLD**
 
-**Image publishing status:** This gallery is ready to display the four author-provided screenshots. The source files have been re-uploaded and packaged with the exact filenames, but **binary image transfer into GitHub is pending**. Thumbnails will render automatically once the PNG and WebP files are placed into this folder. Until then broken thumbnails do not indicate a missing engineering model.
+These four images are the author's **actual SolidWorks screenshots** of `DEP_ConceptB_J3_Fastener_Integration_Rev00.SLDASM`, uploaded on 13 November 2026. They are not CAD reconstructions or generated illustrations. Select an image for its original full-resolution PNG.
 
-| Side view | End view |
-|:---:|:---:|
-| [![Actual SolidWorks side view — J3 CAD](j3_side_actual_2026-11-13_preview.webp)](j3_side_actual_2026-11-13.png)
+## Side view
 
-**Side view** · [Full-resolution PNG](j3_side_actual_2026-11-13.png) | [![Actual SolidWorks end view — J3 CAD](j3_end_actual_2026-11-13_preview.webp)](j3_end_actual_2026-11-13.png)
+[![Concept B J3 side elevation showing tapered cradle and unequal end flanges](j3_side_actual_2026-11-13_preview.webp)](j3_side_actual_2026-11-13.png)
 
-**End view** · [Full-resolution PNG](j3_end_actual_2026-11-13.png) |
+The tapered cradle's external profile and the two dissimilar flange diameters are visible. Trial fasteners and dowel ends are shown. **[Full-resolution PNG](j3_side_actual_2026-11-13.png)**
 
-| Front isometric | Rear isometric |
-|:---:|:---:|
-| [![Actual SolidWorks front isometric — J3 CAD](j3_isometric_front_actual_2026-11-13_preview.webp)](j3_isometric_front_actual_2026-11-13.png)
+## End view
 
-**Front isometric** · [Full-resolution PNG](j3_isometric_front_actual_2026-11-13.png) | [![Actual SolidWorks rear isometric — J3 CAD](j3_isometric_rear_actual_2026-11-13_preview.webp)](j3_isometric_rear_actual_2026-11-13.png)
+[![Concept B J3 end view showing concentric circular flanges, bore and bolt pattern](j3_end_actual_2026-11-13_preview.webp)](j3_end_actual_2026-11-13.png)
 
-**Rear isometric** · [Full-resolution PNG](j3_isometric_rear_actual_2026-11-13.png) |
+Circular interface arrangement with central opening, trial bolt positions and rear flange visible. **[Full-resolution PNG](j3_end_actual_2026-11-13.png)**
 
-## What the real CAD shows
+## Front isometric view
 
-- A **tapered central shell / cradle** joining dissimilar-size circular flange interfaces.
-- A motor-side adapter and airframe mating interface, with trial fastener groups and visible dowel arrangements.
-- Author-created SOLIDWORKS feature tree and Assembly `Evaluate` environment, rather than a fictitious rendering.
+[![Concept B J3 three-dimensional front isometric showing motor-side flange and tapered shell](j3_isometric_front_actual_2026-11-13_preview.webp)](j3_isometric_front_actual_2026-11-13.png)
 
-**Important:** The CAD screenshots establish model geometry and the presence of trial hardware but **do not verify** the final installed part quantities, fastener grip, clamping load, joint contact, access, dowel fit, thread engagement, interference elimination or flightworthiness. The earlier SOLIDWORKS interference audit included non-zero overlap volumes. Refer to [CAD and fastener review](../../docs/04_cad_review.md), [open risks](../../docs/06_open_risks.md), and [source provenance](IMAGE_PROVENANCE.md).
+The solid tapered load path, interfaces and trial fasteners can be inspected together. **[Full-resolution PNG](j3_isometric_front_actual_2026-11-13.png)**
 
-## Image provenance
+## Rear isometric view
 
-The `.png` files are the four unmodified user-provided full-resolution screenshots (1920 × 1200), corresponding to 13 November 2026 SolidWorks views. The `_preview.webp` thumbnails are **viewport-only crops** from the corresponding real screenshot: the CAD geometry is not reconstructed, stylized or fabricated. Original-image pixel details should always be checked against the full-resolution linked PNG. The project is **not** an official NASA design.
+[![Concept B J3 three-dimensional rear isometric showing tapered shell and rear interface](j3_isometric_rear_actual_2026-11-13_preview.webp)](j3_isometric_rear_actual_2026-11-13.png)
 
-To put this gallery online, upload the eight files in the prepared `DEP-MOUNT-2026-CAD-GitHub-Upload.zip` archive (after extracting it) into this `assets/cad/` folder. Do not upload the ZIP alone expecting GitHub to extract it.
+A complementary view of the same saved J3 assembly. **[Full-resolution PNG](j3_isometric_rear_actual_2026-11-13.png)**
+
+## Engineering interpretation and limitations
+
+The images show assembly geometry, not completed hardware qualification. The M6 hardware is a trial/nominal installation: final bolt length/grip, fastener seating, torque/preload, thread engagement, contact distribution, dowel fit and clearance are unresolved. Earlier interference detection recorded nonzero collision volumes; mating constraints do **not** demonstrate that all parts can be manufactured or assembled as illustrated.
+
+- [CAD and fastener engineering audit](../../docs/04_cad_review.md)
+- [Open engineering risks and HOLD decision](../../docs/06_open_risks.md)
+- [Original-image file inventory and SHA-256 register](IMAGE_PROVENANCE.md)
+- [Engineering project walkthrough](../../docs/09_engineering_walkthrough.md)
+
+The images are archived unchanged at 1920 × 1200, with smaller viewport-crop WebP previews for browsing. The native commercial Toolbox-derived CAD archive has not been released publicly. This is an independent educational portfolio design, not NASA-supplied or flight-qualified hardware.

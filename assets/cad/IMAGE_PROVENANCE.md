@@ -2,7 +2,7 @@
 
 These screenshots were **re-uploaded by the author in the same conversation as this manifest**. Only the four original CAD images are within this scope. A separate screenshot of the GitHub README page was not included.
 
-**Binary publication status: awaiting upload to `assets/cad/`.** This register is not evidence that the image objects already exist on GitHub.
+**Binary publication status: PUBLISHED.** All four original PNG files and four derived WebP preview files are in the public `assets/cad/` directory. Repository file paths and byte sizes have been checked against the expected filenames and file inventory. The checksums below were recorded from the source package; uploading does not independently validate engineering design performance.
 
 | Asset | Image role | Byte size | SHA-256 |
 |---|---|---:|---|
