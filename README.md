@@ -52,6 +52,9 @@ flowchart LR
 
 ### CAD: the actual model
 
+**[Original SolidWorks CAD gallery — four view directions](assets/cad/README.md)** · [Source image and checksum register](assets/cad/IMAGE_PROVENANCE.md)
+
+
 The author's **real SolidWorks screenshots (13 November 2026)** show the tapered cradle joining two different-diameter circular flanges, each with four proposed M6 fastener positions and two Ø4 dowel locations. The revised screenshot set includes a side view, end view and two isometrics. **The local SolidWorks Pack-and-Go ZIP has been saved by the author but is not yet deposited here.**
 
 **Pack-and-Go source archive:** The original eight-file ZIP was received in this conversation and passed CRC verification; its full file inventory and SHA-256 are recorded in [the verified CAD archive manifest](cad/PACK_AND_GO_MANIFEST.md). The binary ZIP is not yet on GitHub and includes SOLIDWORKS Toolbox-derived parts that require redistribution/license review.

@@ -2,6 +2,9 @@
 
 ## Actual geometry
 
+See the [four-view original SolidWorks CAD gallery](../assets/cad/README.md) and [source image provenance / SHA-256 record](../assets/cad/IMAGE_PROVENANCE.md). The four actual screenshots have been re-uploaded in chat and prepared for repository transfer; the GitHub PNG files themselves remain pending until their image bytes are published. No generic CAD renders are substituted.
+
+
 The original SolidWorks model `DEP_ConceptB_J3_Fastener_Integration_Rev00.SLDASM` is a **tapered central cradle** between **two unequal circular end flanges**, not a generic four-arm spider mount. The new November 13 screenshots show actual **side**, **end**, and **two isometric** views. Original images should be uploaded to `assets/cad/`; the STEP/Pack-and-Go ZIP is retained by the author offline.
 
 **Do not treat any decorative CAD illustration as project evidence.**

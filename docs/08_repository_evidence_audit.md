@@ -20,7 +20,7 @@
 
 ## Original work identified from earlier uploads but NOT yet published
 
-The following **still unavailable** files were identified by filename in the user's earlier ChatGPT attachments. Being discoverable as a prior attachment **does not mean GitHub received the binary/source file**. In this session, access to the original archived files' raw bytes was unavailable; do not claim they were transferred.
+The following **still not committed to GitHub** files were identified by filename in earlier ChatGPT attachments. The four original SolidWorks screenshots have since been re-uploaded in a form that is accessible locally, and a source-integrity manifest has been added under [assets/cad/](../assets/cad/IMAGE_PROVENANCE.md); this does **not** mean the PNG bytes have been pushed to GitHub. Being discoverable as a prior attachment **does not mean GitHub received the binary/source file**. In this session, access to the original archived files' raw bytes was unavailable; do not claim they were transferred.
 
 | Prior artifact | Target GitHub path (only after exact source bytes can be recovered) | Status |
 |---|---|---|
